@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <scenes>
+        <!--Data Source-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController title="Text Field Style 1" id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="sUz-5K-sgz" customClass="LUNField">
+                                <rect key="frame" x="40" y="208" width="240" height="32"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="32" id="Hgf-rp-rO6"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                        <color key="value" red="0.61176470589999998" green="0.6588235294" blue="0.67843137249999996" alpha="1" colorSpace="calibratedRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                        <real key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="placeholderFontColor">
+                                        <color key="value" red="0.31372549020000001" green="0.31372549020000001" blue="0.31372549020000001" alpha="1" colorSpace="calibratedRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="upperPlaceholderFontColor">
+                                        <color key="value" red="0.70588235290000001" green="0.70588235290000001" blue="0.70588235290000001" alpha="1" colorSpace="calibratedRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="textFontColor">
+                                        <color key="value" red="0.31372549020000001" green="0.31372549020000001" blue="0.31372549020000001" alpha="1" colorSpace="calibratedRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="tintColor">
+                                        <color key="value" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="upperBorderColor">
+                                        <color key="value" red="0.70588235290000001" green="0.70588235290000001" blue="0.70588235290000001" alpha="1" colorSpace="calibratedRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="underliningColor">
+                                        <color key="value" red="0.70588235290000001" green="0.70588235290000001" blue="0.70588235290000001" alpha="1" colorSpace="calibratedRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="image" keyPath="placeholderImage" value="pencil"/>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <outlet property="dataSource" destination="BYZ-38-t0r" id="Hmd-Z6-tQ5"/>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="Kb9-OX-Vyt"/>
+                                </connections>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="MW3-oH-4Nu" customClass="LUNField">
+                                <rect key="frame" x="40" y="152" width="240" height="28"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="28" id="qeP-nV-1I6"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="placeholderFontColor">
+                                        <color key="value" red="0.31372549020000001" green="0.31372549020000001" blue="0.31372549020000001" alpha="1" colorSpace="calibratedRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                        <real key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                        <color key="value" red="0.61176470589999998" green="0.6588235294" blue="0.67843137249999996" alpha="1" colorSpace="calibratedRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="tintColor">
+                                        <color key="value" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="textFontColor">
+                                        <color key="value" red="0.31372549020000001" green="0.31372549020000001" blue="0.31372549020000001" alpha="1" colorSpace="calibratedRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="upperBorderColor">
+                                        <color key="value" red="0.70588235290000001" green="0.70588235290000001" blue="0.70588235290000001" alpha="1" colorSpace="calibratedRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="upperPlaceholderFontColor">
+                                        <color key="value" red="0.70588235290000001" green="0.70588235290000001" blue="0.70588235290000001" alpha="1" colorSpace="calibratedRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="incorrectStateBorderColor">
+                                        <color key="value" red="1" green="0.57647058819999997" blue="0.57647058819999997" alpha="1" colorSpace="calibratedRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="incorrectStatePlaceholderLabelTextColor">
+                                        <color key="value" red="1" green="0.57647058819999997" blue="0.57647058819999997" alpha="1" colorSpace="calibratedRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="correctStatePlaceholderLabelTextColor">
+                                        <color key="value" red="0.63921568630000003" green="0.89019607840000003" blue="0.34509803919999998" alpha="1" colorSpace="calibratedRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="correctStateBorderColor">
+                                        <color key="value" red="0.63921568630000003" green="0.89019607840000003" blue="0.34509803919999998" alpha="1" colorSpace="calibratedRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="image" keyPath="placeholderImage" value="pencil"/>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <outlet property="dataSource" destination="BYZ-38-t0r" id="Xrc-cJ-J3I"/>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="aO1-B7-mio"/>
+                                </connections>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cGt-oI-qeD" customClass="LUNField">
+                                <rect key="frame" x="40" y="92" width="240" height="32"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="32" id="jbZ-bU-BlJ"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                        <color key="value" red="0.61176470588235299" green="0.6588235294117647" blue="0.67843137254901964" alpha="1" colorSpace="calibratedRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                        <real key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="placeholderFontColor">
+                                        <color key="value" red="0.31372549019607843" green="0.31372549019607843" blue="0.31372549019607843" alpha="1" colorSpace="calibratedRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="upperPlaceholderFontColor">
+                                        <color key="value" red="0.70588235294117641" green="0.70588235294117641" blue="0.70588235294117641" alpha="1" colorSpace="calibratedRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="textFontColor">
+                                        <color key="value" red="0.31372549019607843" green="0.31372549019607843" blue="0.31372549019607843" alpha="1" colorSpace="calibratedRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="tintColor">
+                                        <color key="value" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="upperBorderColor">
+                                        <color key="value" red="0.70588235290000001" green="0.70588235290000001" blue="0.70588235290000001" alpha="1" colorSpace="calibratedRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="underliningColor">
+                                        <color key="value" red="0.70588235290000001" green="0.70588235290000001" blue="0.70588235290000001" alpha="1" colorSpace="calibratedRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="correctStateBorderColor">
+                                        <color key="value" red="0.63921568627450975" green="0.8901960784313725" blue="0.34509803921568627" alpha="1" colorSpace="calibratedRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="correctStatePlaceholderLabelTextColor">
+                                        <color key="value" red="0.63921568630000003" green="0.89019607840000003" blue="0.34509803919999998" alpha="1" colorSpace="calibratedRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="image" keyPath="correctStateImage" value="correct"/>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="incorrectStateBorderColor">
+                                        <color key="value" red="1" green="0.57647058823529407" blue="0.57647058823529407" alpha="1" colorSpace="calibratedRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="incorrectStatePlaceholderLabelTextColor">
+                                        <color key="value" red="1" green="0.57647058819999997" blue="0.57647058819999997" alpha="1" colorSpace="calibratedRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="image" keyPath="incorrectStateImage" value="incorrect"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="correctLabelText" value="Correct name"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="incorrectLabelText" value="Wrong name"/>
+                                    <userDefinedRuntimeAttribute type="image" keyPath="placeholderImage" value="pencil"/>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <outlet property="dataSource" destination="BYZ-38-t0r" id="MfW-hK-sjG"/>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="SZr-Ql-OSI"/>
+                                </connections>
+                            </view>
+                            <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Hx7-Pg-lCW">
+                                <rect key="frame" x="0.0" y="20" width="320" height="44"/>
+                                <color key="barTintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <items>
+                                    <navigationItem title="Title" id="sLH-p7-qEH"/>
+                                </items>
+                            </navigationBar>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <gestureRecognizers/>
+                        <constraints>
+                            <constraint firstItem="Hx7-Pg-lCW" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="20" id="10A-iV-kXh"/>
+                            <constraint firstItem="sUz-5K-sgz" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="40" id="2wk-AF-CPO"/>
+                            <constraint firstAttribute="trailing" secondItem="Hx7-Pg-lCW" secondAttribute="trailing" id="91a-CL-qeB"/>
+                            <constraint firstAttribute="trailing" secondItem="cGt-oI-qeD" secondAttribute="trailing" constant="40" id="Dhu-kb-NyV"/>
+                            <constraint firstItem="Hx7-Pg-lCW" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="Fr9-cU-Egv"/>
+                            <constraint firstAttribute="trailing" secondItem="MW3-oH-4Nu" secondAttribute="trailing" constant="20" id="K8w-Hr-F0F"/>
+                            <constraint firstItem="MW3-oH-4Nu" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="40" id="VdS-YO-J4s"/>
+                            <constraint firstItem="MW3-oH-4Nu" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="WD1-ju-E21"/>
+                            <constraint firstItem="cGt-oI-qeD" firstAttribute="top" secondItem="Hx7-Pg-lCW" secondAttribute="bottom" constant="28" id="XLH-0e-jHx"/>
+                            <constraint firstItem="MW3-oH-4Nu" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="20" id="ZcO-TZ-lg9"/>
+                            <constraint firstAttribute="trailing" secondItem="sUz-5K-sgz" secondAttribute="trailing" constant="40" id="aQc-5J-SVg"/>
+                            <constraint firstItem="MW3-oH-4Nu" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="c3Q-3Q-Xxf"/>
+                            <constraint firstItem="cGt-oI-qeD" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="28" id="cSh-GL-y8R"/>
+                            <constraint firstItem="MW3-oH-4Nu" firstAttribute="top" secondItem="cGt-oI-qeD" secondAttribute="bottom" constant="28" id="eiu-m0-0wT"/>
+                            <constraint firstItem="Hx7-Pg-lCW" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="ftd-Ma-8zv"/>
+                            <constraint firstItem="MW3-oH-4Nu" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="gwJ-DX-WDG"/>
+                            <constraint firstItem="cGt-oI-qeD" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="16" id="q78-Hc-7th"/>
+                            <constraint firstItem="sUz-5K-sgz" firstAttribute="top" secondItem="MW3-oH-4Nu" secondAttribute="bottom" constant="28" id="s2c-wH-J0c"/>
+                            <constraint firstItem="cGt-oI-qeD" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="40" id="sTY-mT-evc"/>
+                            <constraint firstAttribute="trailing" secondItem="MW3-oH-4Nu" secondAttribute="trailing" constant="40" id="zIO-hH-5Gy"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="10A-iV-kXh"/>
+                                <exclude reference="cSh-GL-y8R"/>
+                                <exclude reference="q78-Hc-7th"/>
+                                <exclude reference="K8w-Hr-F0F"/>
+                                <exclude reference="WD1-ju-E21"/>
+                                <exclude reference="ZcO-TZ-lg9"/>
+                                <exclude reference="c3Q-3Q-Xxf"/>
+                            </mask>
+                        </variation>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="STj-qe-auc" appends="YES" id="vRW-pI-2Gm"/>
+                        </connections>
+                    </view>
+                    <simulatedStatusBarMetrics key="simulatedStatusBarMetrics"/>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+                    <connections>
+                        <outlet property="cardNumberField" destination="MW3-oH-4Nu" id="XTI-KQ-wl8"/>
+                        <outlet property="nameField" destination="cGt-oI-qeD" id="6GG-q4-Bnk"/>
+                        <outlet property="navigationBar" destination="Hx7-Pg-lCW" id="rJM-JC-NBS"/>
+                        <outlet property="priceField" destination="sUz-5K-sgz" id="qxX-nG-0DD"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="STj-qe-auc">
+                    <connections>
+                        <action selector="viewTapped:" destination="BYZ-38-t0r" id="5kq-hv-hO2"/>
+                    </connections>
+                </tapGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="231" y="316"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="correct" width="12" height="10"/>
+        <image name="incorrect" width="12" height="11"/>
+        <image name="pencil" width="11" height="12"/>
+    </resources>
+</document>

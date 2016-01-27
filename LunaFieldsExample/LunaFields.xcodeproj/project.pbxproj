@@ -1,0 +1,570 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E709248B1C467D0A00D134D2 /* SF-UI-Text-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = E70924891C467D0A00D134D2 /* SF-UI-Text-Bold.otf */; };
+		E709248C1C467D0A00D134D2 /* SF-UI-Text-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = E70924891C467D0A00D134D2 /* SF-UI-Text-Bold.otf */; };
+		E709248D1C467D0A00D134D2 /* SF-UI-Text-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = E70924891C467D0A00D134D2 /* SF-UI-Text-Bold.otf */; };
+		E709248E1C467D0A00D134D2 /* SF-UI-Text-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = E709248A1C467D0A00D134D2 /* SF-UI-Text-Regular.otf */; };
+		E709248F1C467D0A00D134D2 /* SF-UI-Text-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = E709248A1C467D0A00D134D2 /* SF-UI-Text-Regular.otf */; };
+		E70924901C467D0A00D134D2 /* SF-UI-Text-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = E709248A1C467D0A00D134D2 /* SF-UI-Text-Regular.otf */; };
+		E722DBA11C58B1BF00EC0DEC /* LUNField.m in Sources */ = {isa = PBXBuildFile; fileRef = E722DBA01C58B1BF00EC0DEC /* LUNField.m */; };
+		E722DBA21C58B1BF00EC0DEC /* LUNField.m in Sources */ = {isa = PBXBuildFile; fileRef = E722DBA01C58B1BF00EC0DEC /* LUNField.m */; };
+		E722DBA31C58B1BF00EC0DEC /* LUNField.m in Sources */ = {isa = PBXBuildFile; fileRef = E722DBA01C58B1BF00EC0DEC /* LUNField.m */; };
+		E758DF251C3FB3F000A2D750 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E758DF241C3FB3F000A2D750 /* main.m */; };
+		E758DF281C3FB3F000A2D750 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E758DF271C3FB3F000A2D750 /* AppDelegate.m */; };
+		E758DF2B1C3FB3F000A2D750 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E758DF2A1C3FB3F000A2D750 /* ViewController.m */; };
+		E758DF2E1C3FB3F000A2D750 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E758DF2C1C3FB3F000A2D750 /* Main.storyboard */; };
+		E758DF301C3FB3F000A2D750 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E758DF2F1C3FB3F000A2D750 /* Assets.xcassets */; };
+		E758DF331C3FB3F000A2D750 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E758DF311C3FB3F000A2D750 /* LaunchScreen.storyboard */; };
+		E758DF3E1C3FB3F000A2D750 /* LunaFieldsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E758DF3D1C3FB3F000A2D750 /* LunaFieldsTests.m */; };
+		E758DF491C3FB3F000A2D750 /* LunaFieldsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E758DF481C3FB3F000A2D750 /* LunaFieldsUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E758DF3A1C3FB3F000A2D750 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E758DF181C3FB3F000A2D750 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E758DF1F1C3FB3F000A2D750;
+			remoteInfo = LunaFields;
+		};
+		E758DF451C3FB3F000A2D750 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E758DF181C3FB3F000A2D750 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E758DF1F1C3FB3F000A2D750;
+			remoteInfo = LunaFields;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E70924891C467D0A00D134D2 /* SF-UI-Text-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-UI-Text-Bold.otf"; sourceTree = "<group>"; };
+		E709248A1C467D0A00D134D2 /* SF-UI-Text-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-UI-Text-Regular.otf"; sourceTree = "<group>"; };
+		E722DB9F1C58B1BF00EC0DEC /* LUNField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LUNField.h; sourceTree = "<group>"; };
+		E722DBA01C58B1BF00EC0DEC /* LUNField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LUNField.m; sourceTree = "<group>"; };
+		E758DF201C3FB3F000A2D750 /* LunaFields.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LunaFields.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E758DF241C3FB3F000A2D750 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E758DF261C3FB3F000A2D750 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E758DF271C3FB3F000A2D750 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E758DF291C3FB3F000A2D750 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E758DF2A1C3FB3F000A2D750 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E758DF2D1C3FB3F000A2D750 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E758DF2F1C3FB3F000A2D750 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E758DF321C3FB3F000A2D750 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E758DF341C3FB3F000A2D750 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E758DF391C3FB3F000A2D750 /* LunaFieldsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LunaFieldsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E758DF3D1C3FB3F000A2D750 /* LunaFieldsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LunaFieldsTests.m; sourceTree = "<group>"; };
+		E758DF3F1C3FB3F000A2D750 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E758DF441C3FB3F000A2D750 /* LunaFieldsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LunaFieldsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E758DF481C3FB3F000A2D750 /* LunaFieldsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LunaFieldsUITests.m; sourceTree = "<group>"; };
+		E758DF4A1C3FB3F000A2D750 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E758DF1D1C3FB3F000A2D750 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E758DF361C3FB3F000A2D750 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E758DF411C3FB3F000A2D750 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E70924881C467CE800D134D2 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E70924891C467D0A00D134D2 /* SF-UI-Text-Bold.otf */,
+				E709248A1C467D0A00D134D2 /* SF-UI-Text-Regular.otf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		E722DB9E1C58B1BF00EC0DEC /* LUNField */ = {
+			isa = PBXGroup;
+			children = (
+				E722DB9F1C58B1BF00EC0DEC /* LUNField.h */,
+				E722DBA01C58B1BF00EC0DEC /* LUNField.m */,
+			);
+			name = LUNField;
+			path = ../../LUNField;
+			sourceTree = "<group>";
+		};
+		E758DF171C3FB3F000A2D750 = {
+			isa = PBXGroup;
+			children = (
+				E758DF221C3FB3F000A2D750 /* LunaFields */,
+				E758DF3C1C3FB3F000A2D750 /* LunaFieldsTests */,
+				E758DF471C3FB3F000A2D750 /* LunaFieldsUITests */,
+				E758DF211C3FB3F000A2D750 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E758DF211C3FB3F000A2D750 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E758DF201C3FB3F000A2D750 /* LunaFields.app */,
+				E758DF391C3FB3F000A2D750 /* LunaFieldsTests.xctest */,
+				E758DF441C3FB3F000A2D750 /* LunaFieldsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E758DF221C3FB3F000A2D750 /* LunaFields */ = {
+			isa = PBXGroup;
+			children = (
+				E722DB9E1C58B1BF00EC0DEC /* LUNField */,
+				E70924881C467CE800D134D2 /* Resources */,
+				E758DF261C3FB3F000A2D750 /* AppDelegate.h */,
+				E758DF271C3FB3F000A2D750 /* AppDelegate.m */,
+				E758DF291C3FB3F000A2D750 /* ViewController.h */,
+				E758DF2A1C3FB3F000A2D750 /* ViewController.m */,
+				E758DF2C1C3FB3F000A2D750 /* Main.storyboard */,
+				E758DF2F1C3FB3F000A2D750 /* Assets.xcassets */,
+				E758DF311C3FB3F000A2D750 /* LaunchScreen.storyboard */,
+				E758DF341C3FB3F000A2D750 /* Info.plist */,
+				E758DF231C3FB3F000A2D750 /* Supporting Files */,
+			);
+			path = LunaFields;
+			sourceTree = "<group>";
+		};
+		E758DF231C3FB3F000A2D750 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E758DF241C3FB3F000A2D750 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E758DF3C1C3FB3F000A2D750 /* LunaFieldsTests */ = {
+			isa = PBXGroup;
+			children = (
+				E758DF3D1C3FB3F000A2D750 /* LunaFieldsTests.m */,
+				E758DF3F1C3FB3F000A2D750 /* Info.plist */,
+			);
+			path = LunaFieldsTests;
+			sourceTree = "<group>";
+		};
+		E758DF471C3FB3F000A2D750 /* LunaFieldsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E758DF481C3FB3F000A2D750 /* LunaFieldsUITests.m */,
+				E758DF4A1C3FB3F000A2D750 /* Info.plist */,
+			);
+			path = LunaFieldsUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E758DF1F1C3FB3F000A2D750 /* LunaFields */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E758DF4D1C3FB3F000A2D750 /* Build configuration list for PBXNativeTarget "LunaFields" */;
+			buildPhases = (
+				E758DF1C1C3FB3F000A2D750 /* Sources */,
+				E758DF1D1C3FB3F000A2D750 /* Frameworks */,
+				E758DF1E1C3FB3F000A2D750 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LunaFields;
+			productName = LunaFields;
+			productReference = E758DF201C3FB3F000A2D750 /* LunaFields.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E758DF381C3FB3F000A2D750 /* LunaFieldsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E758DF501C3FB3F000A2D750 /* Build configuration list for PBXNativeTarget "LunaFieldsTests" */;
+			buildPhases = (
+				E758DF351C3FB3F000A2D750 /* Sources */,
+				E758DF361C3FB3F000A2D750 /* Frameworks */,
+				E758DF371C3FB3F000A2D750 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E758DF3B1C3FB3F000A2D750 /* PBXTargetDependency */,
+			);
+			name = LunaFieldsTests;
+			productName = LunaFieldsTests;
+			productReference = E758DF391C3FB3F000A2D750 /* LunaFieldsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E758DF431C3FB3F000A2D750 /* LunaFieldsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E758DF531C3FB3F000A2D750 /* Build configuration list for PBXNativeTarget "LunaFieldsUITests" */;
+			buildPhases = (
+				E758DF401C3FB3F000A2D750 /* Sources */,
+				E758DF411C3FB3F000A2D750 /* Frameworks */,
+				E758DF421C3FB3F000A2D750 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E758DF461C3FB3F000A2D750 /* PBXTargetDependency */,
+			);
+			name = LunaFieldsUITests;
+			productName = LunaFieldsUITests;
+			productReference = E758DF441C3FB3F000A2D750 /* LunaFieldsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E758DF181C3FB3F000A2D750 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = gmgroup;
+				TargetAttributes = {
+					E758DF1F1C3FB3F000A2D750 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 2KS947LFXJ;
+					};
+					E758DF381C3FB3F000A2D750 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = E758DF1F1C3FB3F000A2D750;
+					};
+					E758DF431C3FB3F000A2D750 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = E758DF1F1C3FB3F000A2D750;
+					};
+				};
+			};
+			buildConfigurationList = E758DF1B1C3FB3F000A2D750 /* Build configuration list for PBXProject "LunaFields" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E758DF171C3FB3F000A2D750;
+			productRefGroup = E758DF211C3FB3F000A2D750 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E758DF1F1C3FB3F000A2D750 /* LunaFields */,
+				E758DF381C3FB3F000A2D750 /* LunaFieldsTests */,
+				E758DF431C3FB3F000A2D750 /* LunaFieldsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E758DF1E1C3FB3F000A2D750 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E709248E1C467D0A00D134D2 /* SF-UI-Text-Regular.otf in Resources */,
+				E758DF331C3FB3F000A2D750 /* LaunchScreen.storyboard in Resources */,
+				E758DF301C3FB3F000A2D750 /* Assets.xcassets in Resources */,
+				E709248B1C467D0A00D134D2 /* SF-UI-Text-Bold.otf in Resources */,
+				E758DF2E1C3FB3F000A2D750 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E758DF371C3FB3F000A2D750 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E709248F1C467D0A00D134D2 /* SF-UI-Text-Regular.otf in Resources */,
+				E709248C1C467D0A00D134D2 /* SF-UI-Text-Bold.otf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E758DF421C3FB3F000A2D750 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E70924901C467D0A00D134D2 /* SF-UI-Text-Regular.otf in Resources */,
+				E709248D1C467D0A00D134D2 /* SF-UI-Text-Bold.otf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E758DF1C1C3FB3F000A2D750 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E722DBA11C58B1BF00EC0DEC /* LUNField.m in Sources */,
+				E758DF2B1C3FB3F000A2D750 /* ViewController.m in Sources */,
+				E758DF281C3FB3F000A2D750 /* AppDelegate.m in Sources */,
+				E758DF251C3FB3F000A2D750 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E758DF351C3FB3F000A2D750 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E722DBA21C58B1BF00EC0DEC /* LUNField.m in Sources */,
+				E758DF3E1C3FB3F000A2D750 /* LunaFieldsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E758DF401C3FB3F000A2D750 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E722DBA31C58B1BF00EC0DEC /* LUNField.m in Sources */,
+				E758DF491C3FB3F000A2D750 /* LunaFieldsUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E758DF3B1C3FB3F000A2D750 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E758DF1F1C3FB3F000A2D750 /* LunaFields */;
+			targetProxy = E758DF3A1C3FB3F000A2D750 /* PBXContainerItemProxy */;
+		};
+		E758DF461C3FB3F000A2D750 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E758DF1F1C3FB3F000A2D750 /* LunaFields */;
+			targetProxy = E758DF451C3FB3F000A2D750 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E758DF2C1C3FB3F000A2D750 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E758DF2D1C3FB3F000A2D750 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E758DF311C3FB3F000A2D750 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E758DF321C3FB3F000A2D750 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E758DF4B1C3FB3F000A2D750 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E758DF4C1C3FB3F000A2D750 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E758DF4E1C3FB3F000A2D750 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = LunaFields/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gmgroup.LunaFields;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E758DF4F1C3FB3F000A2D750 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = LunaFields/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gmgroup.LunaFields;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		E758DF511C3FB3F000A2D750 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LunaFieldsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gmgroup.LunaFieldsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LunaFields.app/LunaFields";
+			};
+			name = Debug;
+		};
+		E758DF521C3FB3F000A2D750 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LunaFieldsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gmgroup.LunaFieldsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LunaFields.app/LunaFields";
+			};
+			name = Release;
+		};
+		E758DF541C3FB3F000A2D750 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LunaFieldsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gmgroup.LunaFieldsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LunaFields;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		E758DF551C3FB3F000A2D750 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LunaFieldsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gmgroup.LunaFieldsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LunaFields;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E758DF1B1C3FB3F000A2D750 /* Build configuration list for PBXProject "LunaFields" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E758DF4B1C3FB3F000A2D750 /* Debug */,
+				E758DF4C1C3FB3F000A2D750 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E758DF4D1C3FB3F000A2D750 /* Build configuration list for PBXNativeTarget "LunaFields" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E758DF4E1C3FB3F000A2D750 /* Debug */,
+				E758DF4F1C3FB3F000A2D750 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E758DF501C3FB3F000A2D750 /* Build configuration list for PBXNativeTarget "LunaFieldsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E758DF511C3FB3F000A2D750 /* Debug */,
+				E758DF521C3FB3F000A2D750 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E758DF531C3FB3F000A2D750 /* Build configuration list for PBXNativeTarget "LunaFieldsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E758DF541C3FB3F000A2D750 /* Debug */,
+				E758DF551C3FB3F000A2D750 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E758DF181C3FB3F000A2D750 /* Project object */;
+}
