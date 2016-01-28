@@ -27,6 +27,13 @@ Installation
 
 To use the LUNField class in an app, just drag the LUNField class files (demo files and assets are not needed) into your project.
 
+Also you can use CocoaPods 
+### Сocoapods version
+
+```ruby
+pod 'LUNField'
+```
+
 Properties
 ----------
 
