@@ -1,3 +1,10 @@
+# LUNField
+This project aims to provide simple customizable nice textfield with grouping. Created by [LunApps](https://lunapps.com).
+
+Purpose
+-------
+LUNField is class designed to simplify the implementation of textfield's group with nice animation. It includes possibillity to validate content to pay user's attention. Also you can use it as normal textfield, but with moving placeholder and nice border animation. For example, you can use it as input element for credit-cards numbers or mobile phones.
+
 Supported OS & SDK Versions
 ---------------------------
 
