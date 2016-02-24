@@ -1,7 +1,10 @@
 # LUNField
-This project aims to provide simple customizable nice textfield with grouping. 
-Please check this [article](https://lunapps.com/blog/lunfield/) on our blog.
 [![Foo](https://lunapps.com/img/craftedInLunapps.png)](https://lunapps.com/)
+
+This project aims to provide simple customizable nice textfield with grouping.
+
+Please check this [article](https://lunapps.com/blog/lunfield/) on our blog.
+
 
 Purpose
 -------
