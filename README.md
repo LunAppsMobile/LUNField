@@ -1,5 +1,5 @@
 # LUNField
-[![Foo](https://lunapps.com/img/craftedInLunapps.png)](https://lunapps.com/)
+[![Foo](https://lunapps.com/img/crafted-in-lunapps.png)](https://lunapps.com/)
 
 This project aims to provide simple customizable nice textfield with grouping.
 
