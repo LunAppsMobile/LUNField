@@ -455,8 +455,8 @@ static const CGFloat kLUNInitialVelocity = 0.0f;
 
 - (void)updateTextFields {
     NSUInteger numberOfSections = [_dataSource numberOfSectionsInTextField:self];
-    NSUInteger lengthOfSections[numberOfSections];
-    NSUInteger summLength;
+    NSUInteger lengthOfSections[numberOfSections] = {0};
+    NSUInteger summLength = 0;
     for (NSUInteger i = 0; i < numberOfSections; ++i) {
         lengthOfSections[i] = [_dataSource numberOfCharactersInSection:i inTextField:self];
         summLength += lengthOfSections[i];
@@ -666,12 +666,12 @@ static const CGFloat kLUNInitialVelocity = 0.0f;
     [self viewTapped];
     NSUInteger numberOfSections = self.textFields.count;
     NSUInteger lengthOfSections[numberOfSections];
-    NSUInteger summLength;
+    NSUInteger summLength = 0;
     for (NSUInteger i = 0; i < numberOfSections; ++i) {
         lengthOfSections[i] = [_dataSource numberOfCharactersInSection:i inTextField:self];
         summLength += lengthOfSections[i];
     }
-    if (summLength<text.length) {
+    if (summLength < text.length) {
         text = [text substringToIndex:summLength];
     }
     for (NSUInteger i = 0; i < self.textFields.count; ++i) {
