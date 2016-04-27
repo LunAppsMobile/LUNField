@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = 'LUNField'
-  s.version      = '1.0.1'
+  s.version      = '1.0.3'
   s.summary      = 'Animated, adaptive textfield group with validation. You can specify the count of textfields and their relative sizes'
   s.description  = 'Animated, adaptive textfield group with validation. You can specify the count of textfields and their relative sizes.'
   s.homepage     = 'https://github.com/LunApps/LUNField'

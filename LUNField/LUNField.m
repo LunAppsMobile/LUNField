@@ -455,7 +455,7 @@ static const CGFloat kLUNInitialVelocity = 0.0f;
 
 - (void)updateTextFields {
     NSUInteger numberOfSections = [_dataSource numberOfSectionsInTextField:self];
-    NSUInteger lengthOfSections[numberOfSections] = {0};
+    NSUInteger lengthOfSections[numberOfSections];
     NSUInteger summLength = 0;
     for (NSUInteger i = 0; i < numberOfSections; ++i) {
         lengthOfSections[i] = [_dataSource numberOfCharactersInSection:i inTextField:self];
